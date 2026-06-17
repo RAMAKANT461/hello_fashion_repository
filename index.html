@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Fashion</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">New arrivals</p>
+        <h1>Hello Fashion</h1>
+        <p class="intro">Fresh styles, photos, and videos for quick WhatsApp orders.</p>
+      </div>
+      <a class="admin-link" href="/admin.html">Admin</a>
+    </header>
+
+    <main>
+      <section class="toolbar">
+        <input id="searchInput" type="search" placeholder="Search collection" />
+        <select id="categoryFilter">
+          <option value="">All categories</option>
+        </select>
+      </section>
+
+      <section id="productGrid" class="product-grid"></section>
+      <p id="emptyState" class="empty-state">No products added yet.</p>
+    </main>
+
+    <script src="/site.js"></script>
+  </body>
+</html>
